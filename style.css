@@ -6,7 +6,6 @@ body {
 header {
     background-color: #8B0000;
     color: white;
-    text-align: center;
     padding: 20px;
 }
 section {
@@ -16,15 +15,26 @@ h2 {
     border-bottom: 2px solid #000;
     padding-bottom: 10px;
 }
-.quote {
-    background-color: #f0f0f0;
+.quotes{
+    box-sizing: content-box;
+}
+.quote1,.quote2,.quote3 {
+    background-color: #5aad7f;
     margin: 10px 0;
     padding: 20px;
     border-radius: 5px;
+    font-style: italic;
+    font-size: large;
 }
-.quote:nth-child(odd) {
-    background-color: #e0e0e0;
+.quote{
+    background-color: #437bec;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Verdana ;
 }
+
+
 .author {
     text-align: right;
     font-style: italic;
